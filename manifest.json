@@ -1,0 +1,16 @@
+{
+  "name": "WordPress.org Forum Reply Preview",
+  "description": "This extension will allow you to preview the replies on WordPress.org forum.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": 
+    [
+        {
+            "matches":["https://wordpress.org/*"],
+            "js":["js/jquery.min.js","js/content-script.js"],
+            "css": ["css/style.css"],
+            "run_at": "document_end"
+        }
+    ],
+  "permissions": ["scripting"]
+}

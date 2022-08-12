@@ -1,0 +1,49 @@
+/* Navigation Styling */
+.vsbox-cs-con {
+    font-size: 14px;
+    background: #e3e3e3;
+    color: #000;
+    padding: 9px 16px;
+    display: inline-block;
+    border-radius: 2px 2px 0 0;
+}
+.vsbox-cs-con {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.vsbox-cs-con:hover {
+    background: #ececec;
+    color: #000;
+    text-decoration: none;
+}
+.vsbox-wrp-links {
+    padding-top: 15px;
+}
+
+#bbpress-forums .bbp-the-content-wrapper .vsbox-wrp-links .vsbox-cs-con {
+    border: 1px solid #ffffff;
+    border-bottom: 0 !important;
+}
+.vsbox-active{
+    border-color: #b4b4b4 !important;
+    background: #ececec;
+    color: #000;
+}
+.vsbox-cs-con {
+    outline: 0 !important;
+    color: #000 !important;
+    text-decoration: none !important;
+}
+.vsbox-prev-box {
+    border-top: 1px solid #cccc;
+    background: #ecf1f6;
+}
+.vsbox-cs-wrp code {
+    font-size: 0.8rem !important;
+}
+
+.vsbox-prev-box .bbp-reply-content pre p {
+    margin-bottom: 0 !important;
+    display: inline-block;
+}
